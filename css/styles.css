@@ -319,6 +319,10 @@ img {
     fill: #afb1b8;
 }
 
+.footer-soc-icon {
+    fill: currentColor;
+}
+
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: #188ce8;
@@ -460,8 +464,7 @@ img {
     /* width: 206px;
     height: 80px; */
 }
-.footer-soc-item {
-}
+
 .footer-soc-link {
     width: 44px;
     height: 44px;
@@ -471,10 +474,62 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: #ffffff;
+    color: #ffffff;
+}
+
+.footer-soc-icon {
+    fill: currentColor;
 }
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #188ce8;
+    fill: #ffffff;
+}
+
+/* ---------CLIENTS------------ */
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin-top: 0;
+}
+.clients-title {
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+.clients-list {
+    display: flex;
+}
+/* .clients-item {
+    max-width: 270px;
+    margin-right: 30px;
+} */
+.clients-item {
+    width: 170px;
+    height: 92px;
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+.clients-item:last-child {
+    margin-right: 0;
+}
+.clients-link {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #afb1b8;
+}
+.clients-icon {
+    fill: currentColor;
+}
+.clients-link:hover,
+.clients-link:focus {
+    border: 1px solid #188ce8;
+    fill: #ffffff;
 }
