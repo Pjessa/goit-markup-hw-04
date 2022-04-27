@@ -227,10 +227,9 @@ img {
     margin-right: 0;
 }
 .list-link {
-    width: 270px;
+    width: 100%;
     height: 120px;
     border-radius: 4px;
-    padding: 25px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,12 +318,17 @@ img {
     display: flex;
     justify-content: center;
 }
+.team-soc-item {
+    margin-right: 10px;
+}
+.team-soc-item:last-child {
+    margin-right: 0px;
+}
 .team-soc-link {
     width: 44px;
     height: 44px;
     background-color: var(--hero-title-color);
     border-radius: 50%;
-    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,12 +354,14 @@ img {
 .clients-list {
     display: flex;
 }
-.clients-link {
+.clients-item {
     width: 170px;
+}
+.clients-link {
+    width: calc(100% / 6- 30px);
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
-    padding: 16px 32px;
     color: #afb1b8;
     background-color: var(--hero-title-color);
     display: flex;
@@ -435,12 +441,17 @@ img {
 .footer-soc-list {
     display: flex;
 }
+.footer-soc-item {
+    margin-right: 10px;
+}
+.footer-soc-item:last-child {
+    margin-right: 0;
+}
 .footer-soc-link {
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -542,6 +553,7 @@ img {
 }
 .works-item-link {
     display: inline-block;
+    text-decoration: none;
 }
 .works-item-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
